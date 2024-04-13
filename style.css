@@ -1,0 +1,105 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+
+body{
+  background: #222;
+}
+
+.card{
+  background: linear-gradient(135deg, rgb(18, 195, 139), rgb(76, 198, 228), rgb(72, 168, 220));
+  width: 90%;
+  max-width: 470px;
+  margin: 100px auto 0;
+  padding: 40px 35px;
+}
+
+
+
+.search{
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+
+
+
+.search input{
+  border-radius: 15px;
+  width: 330px;
+  height: 35px;
+  padding: 15px 15px;
+  min-width: 150px;
+}
+
+
+.search button{
+  border-radius: 15px;
+  padding: 10px;
+  
+}
+
+.weather{
+  text-align: center;
+}
+
+h1, h2, p{
+  color: white;
+  margin-top: 5px;
+}
+
+h1, h2{
+  font-size: 30px;
+}
+
+h1{
+  font-weight: bold;
+}
+img{
+  width: 40px;
+}
+
+.weather, .details{
+  margin-top: 30px;
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+
+.weather img{
+  width: 150px;
+}
+
+.details{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+
